@@ -109,8 +109,8 @@ class SISmodel:
 
 print('Model setup:')
 
-probInfection = float(input('Probability of infection (%): '))
-probRecovery = float(input('Probability of recovery (%): '))
+probInfection = float(input('Probability of infection (0..1): '))
+probRecovery = float(input('Probability of recovery (0..1): '))
 n,m = map(int, input('The size of the quadratic graph is NxM: ').split()) # You can use your graph, not necessarily square
 diseased = list(map(int, input('Diseased Nodes: ').split()))	
 speed = int(input('Pause between iterations (seconds): '))
