@@ -17,8 +17,8 @@ This class is used for building a graph. Properties:
 List of neighbors used for more quickly single step model processing. Also, using by this class you can create your own graph. You just need to specify the neighbors of the node as a list:
 
 ```python myNodes[1] = Node(1, [3,4])
-myNodes[2] = Node(2, [3])
-myNodes[3] = Node(1, [1,2])
-myNodes[4] = Node(1, [])
+myNodes[2] = Node(1, [3])
+myNodes[3] = Node(2, [1,2])
+myNodes[4] = Node(3, [])
 ```
 As you can see, graph can be oriented.
