@@ -1,5 +1,5 @@
-# simpleSISmodel
-Simple SIS model written in Python
+# SIS SIR SIRD model
+Simple SIS SIR SIRD model written in Python
 ## class Node
 This class is used for building a graph. Properties:
 
@@ -23,4 +23,4 @@ myNodes[3] = Node(2, [1,2])
 myNodes[4] = Node(3, [])
 ```
 
-As you can see, graph can be oriented.
+As you can see, graph can be oriented. The node can go into itself.
