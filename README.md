@@ -21,5 +21,5 @@ myNodes[2] = Node(1, [3])
 myNodes[3] = Node(2, [1,2])
 myNodes[4] = Node(3, [])
 ```
-![Image alt](https://github.com/titamik/SIS_SIR_SIRD_model/graph.png)
+![Image alt](https://github.com/titamik/SIS_SIR_SIRD_model/blob/master/graph.png)
 As you can see, graph can be oriented.
